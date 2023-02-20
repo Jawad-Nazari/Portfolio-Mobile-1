@@ -33,3 +33,66 @@
 a {
   text-decoration: none;
 }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  background-image: url(/image/mobile-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 85px;
+  justify-content: center;
+  height: 89vh;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+.title {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  width: 50%;
+  height: 70px;
+}
+
+.text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 24px;
+  width: 64vw;
+  height: 110px;
+}
+
+.connect {
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  list-style-type: none;
+  margin-left: -12px;
+}
