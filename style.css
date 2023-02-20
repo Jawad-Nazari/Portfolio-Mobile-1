@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@400;500;600;700&display=swap');
+
+.header-container {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  align-items: center;
+}
+
+.menu img {
+  margin-right: 36px;
+  cursor: pointer;
+  margin-top: 66;
+}
+
+.menu:hover {
+  transform: scale(1.2);
+  transition: all 0.6s;
+}
+
+.mylogo {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: 24px;
+  color: #6070ff;
+  margin-top: 66;
+}
+
+a {
+  text-decoration: none;
+}
