@@ -165,6 +165,6 @@ I'd like to thank Microverse for providing this chance to enrich my experience.
 
 ## 📝 License <a name="license"></a>
 
-The link to the licnese is broken.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
