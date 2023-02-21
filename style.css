@@ -12,6 +12,7 @@
   justify-content: space-between;
   height: 8vh;
   align-items: center;
+  padding: 10px;
 }
 
 .menu img {
@@ -42,12 +43,12 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #ffff;
-  background-image: url(/image/mobile-background.svg);
+  background-image: url(./image/mobile-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 85px;
-  justify-content: center;
-  height: 84vh;
+  margin-top: 70px;
+  height: 82vh;
 }
 
 .bio {
