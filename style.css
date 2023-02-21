@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@400;500;600;700&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .header-container {
   top: 0;
   display: flex;
   justify-content: space-between;
   height: 8vh;
   align-items: center;
+
 }
 
 .menu img {
   margin-right: 36px;
   cursor: pointer;
-  margin-top: 66;
 }
 
 .menu:hover {
@@ -27,7 +33,6 @@
   line-height: 20px;
   margin-left: 24px;
   color: #6070ff;
-  margin-top: 66;
 }
 
 a {
@@ -37,19 +42,21 @@ a {
 .home {
   display: flex;
   flex-direction: column;
-  background-color: #ffff;
+  background-color: #FFFF;
   background-image: url(/image/mobile-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 85px;
   justify-content: center;
-  height: 89vh;
+  height: 84vh;
 }
 
 .bio {
   display: flex;
   flex-direction: column;
   height: 50%;
+  margin: 25px 0;
+  padding: 0 15px;
 }
 
 .title {
@@ -62,8 +69,7 @@ a {
   display: flex;
   align-items: center;
   margin-left: 24px;
-  width: 50%;
-  height: 70px;
+  width: 75%;
 }
 
 .text {
@@ -74,11 +80,12 @@ a {
   line-height: 24px;
   color: #344563;
   margin-left: 24px;
-  width: 64vw;
-  height: 110px;
+  width: 65vw;
+  padding-top: 15px;
 }
 
 .connect {
+  display: inline-block;
   color: #7f8cff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -86,13 +93,20 @@ a {
   font-size: 16px;
   line-height: 24px;
   margin-left: 24px;
+
 }
 
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 220px;
+  width: 190px;
   list-style-type: none;
+  margin-left: 38px;
+  height: 40px;
+}
+
+li {
+  flex: 1;
   margin-left: -12px;
 }
