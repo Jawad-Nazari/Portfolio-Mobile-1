@@ -45,7 +45,7 @@ a {
   background-color: #ffff;
   background-image: url(./image/mobile-background.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   border-bottom-left-radius: 85px;
   margin-top: 70px;
   height: 82vh;
