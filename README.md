@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio Mobile First README</b></h3>
+  <h3><b>Portfolio Finish Mobile Version README</b></h3>
 
 </div>
 
@@ -29,9 +29,9 @@
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-Mobile-First] <a name="about-project"></a>
+# 📖 [Portfolio Finish Mobile-Version] <a name="about-project"></a>
 
-The aim of this project is to build a personal portfolio web page while understanding how to parse a Figma design and filxbox to create a UI and usse the images and backgrounds to enhance the look of the website.
+The aim of this project is to build a simple personal portfolio web page while understanding how to parse a Figma design and flexbox to create a UI and usse the images and backgrounds to enhance the look of the website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -68,7 +68,7 @@ The aim of this project is to build a personal portfolio web page while understa
 
 - **[Key Feature 1]**    Error correction by Microverse Linter configuration
 - **[Key Feature 2]**    Responsive design to support running in any device
-- **[Key Feature 3 ]**   Documented in a professional way 
+- **[Key Feature 3 ]**   Portfolio added in work section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,8 +129,8 @@ To run and test, open the below HTML file in your browser:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [1] **[Portfolio pages will be added]**
-- [2] **[Contact details will be added]**
+- [1] **[gallary section will be added ]**
+- [2] **[Contact form will be added ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
