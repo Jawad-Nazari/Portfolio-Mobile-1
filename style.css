@@ -49,7 +49,6 @@ a {
   border-bottom-left-radius: 85px;
   margin-top: 70px;
   height: 82vh;
-
 }
 
 .bio {
@@ -408,6 +407,7 @@ ul {
   align-items: center;
   height: 779px;
   width: 375px;
+  padding-left: 5px;
 }
 
 .form-title {
@@ -415,35 +415,36 @@ ul {
   width: 375px;
   background-image: url(../image/Contact.svg);
   background-repeat: no-repeat;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-
-
-.form h1 {
+.form-title h1 {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   margin-top: 123px;
   color: white;
-  margin-left: 24px;
+  margin-left: 64px;
   width: 801px;
   height: 56px;
-  
 }
 
-.form p {
+.form-title p {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  color: white;
+  color: #ebebff;
   width: 327px;
   height: 102px;
   margin-left: 24px;
   margin-top: 24px;
   margin-bottom: 87px;
-
+  text-align: center;
+  padding-right: 5px;
 }
 
-.form input {
+.form-title input {
   font-family: "Poppins", sans-serif;
   width: 327px;
   height: 48px;
@@ -455,12 +456,9 @@ ul {
   padding-bottom: 15px;
   padding-left: 16px;
   padding-right: 38px;
-
-
-
 }
 
-.form textarea {
+.form-title textarea {
   font-family: "Poppins", sans-serif;
   width: 327px;
   height: 170px;
@@ -471,16 +469,18 @@ ul {
   padding-bottom: 15px;
   padding-left: 16px;
   padding-right: 38px;
-
 }
 
-.form button {
+.form-title button {
   font-family: "Poppins", sans-serif;
   height: 48px;
   width: 142px;
   padding: 12px, 16px, 12px, 16px;
   border-radius: 8px;
   margin-left: 24px;
-  
+}
 
+button:hover {
+  background-color: #7f8cff;
+  color: white;
 }
