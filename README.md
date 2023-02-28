@@ -69,6 +69,7 @@ The aim of this project is to build a simple personal portfolio web page while u
 - **[Key Feature 1]**    Error correction by Microverse Linter configuration
 - **[Key Feature 2]**    Responsive design to support running in any device
 - **[Key Feature 3 ]**   Portfolio added in work section
+- **[Key Feature 4 ]**   Contact form added at the end of the page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +131,7 @@ To run and test, open the below HTML file in your browser:
 
 
 - [1] **[gallary section will be added ]**
-- [2] **[Contact form will be added ]**
+- [2] **[Updated CV will be added  ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
