@@ -413,7 +413,7 @@ ul {
 .form-title {
   height: 779px;
   width: 375px;
-  background-image: url(../image/Contact.svg);
+  background-image: url(./image/Contact.svg);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
