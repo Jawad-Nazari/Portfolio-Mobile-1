@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio Finish Mobile Version README</b></h3>
+  <h3><b>Portfolio Desktop Version README</b></h3>
 
 </div>
 
@@ -29,9 +29,10 @@
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Finish Mobile-Version] <a name="about-project"></a>
+# 📖 [Portfolio Desktop-Version] <a name="about-project"></a>
 
-The aim of this project is to build a simple personal portfolio web page while understanding how to parse a Figma design and flexbox to create a UI and usse the images and backgrounds to enhance the look of the website.
+The aim of this project is to build a simple personal portfolio web page while understanding how to parse a Figma design and flexbox to create a UI and usse the images and backgrounds to enhance the look of the website and also to use Media queiry condition to make website responsive fot both mobile and desktop.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,9 +68,9 @@ The aim of this project is to build a simple personal portfolio web page while u
 ### Key Features <a name="key-features"></a>
 
 - **[Key Feature 1]**    Error correction by Microverse Linter configuration
-- **[Key Feature 2]**    Responsive design to support running in any device
-- **[Key Feature 3 ]**   Portfolio added in work section
-- **[Key Feature 4 ]**   Contact form added at the end of the page
+- **[Key Feature 2]**    Desktop version added
+- **[Key Feature 3 ]**   Used Media Query to make website responsive
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,8 +131,8 @@ To run and test, open the below HTML file in your browser:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [1] **[gallary section will be added ]**
-- [2] **[Updated CV will be added  ]**
+- [1] **[Animation and Transition will be used ]**
+- [2] **[Updated CV will be added to the page ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
