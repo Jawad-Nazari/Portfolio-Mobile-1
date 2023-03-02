@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e5e5e5;
+}
+
 .header-container {
   top: 0;
   display: flex;
@@ -56,7 +60,7 @@ a {
   background-position: top;
   background-size: auto;
   border-bottom-left-radius: 85px;
-  height: 82vh;
+  height: 90vh;
 }
 
 .bio {
@@ -130,6 +134,7 @@ a {
   display: grid;
   align-items: center;
   justify-content: center;
+  background-color: #e5e5e5;
 }
 
 .card {
@@ -262,7 +267,7 @@ ul {
   padding: 114px 24px;
   margin-top: 100px;
   background-color: #ffff;
-  border-top-right-radius: 115px;
+  border-top-right-radius: 95px;
 }
 
 .about {
@@ -524,9 +529,17 @@ input:focus {
   outline: none;
 }
 
+.body-sec {
+  background-color: #fff;
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
+  }
+
+  .body-sec {
+    background-color: #e5e5e5;
   }
 
   .desktop-menu {
@@ -554,6 +567,10 @@ input:focus {
     margin-right: 16px;
     margin-left: 16px;
     padding: 10px;
+  }
+
+  .header-container {
+    width: 1440px;
   }
 
   .home {
@@ -605,6 +622,10 @@ input:focus {
     margin-left: 270px;
   }
 
+  .cards {
+    background-color: #e5e5e5;
+  }
+
   .card {
     flex-direction: row;
     justify-content: center;
@@ -615,6 +636,7 @@ input:focus {
   }
 
   .work {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -698,6 +720,9 @@ input:focus {
   .about-myself {
     flex-direction: row;
     justify-content: center;
+    border-top-right-radius: 95px;
+    height: 916px;
+    width: 1440px;
   }
 
   .about {
@@ -742,6 +767,8 @@ input:focus {
     background-image: url(./image/Desktop-Images/desktopContactbg.svg);
     background-position: center;
     background-size: contain;
+    height: 916px;
+    width: 1440px;
   }
 
   .form-title {
