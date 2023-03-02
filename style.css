@@ -599,4 +599,94 @@ input:focus {
   .social-icon {
     margin-left: 270px;
   }
+
+  .card {
+    flex-direction: row;
+    justify-content: center;
+    width: 1156px;
+    height: 496px;
+    border-radius: 24px;
+    gap: 30px;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5px;
+  }
+
+  .card-image {
+    width: 544px;
+    height: 448px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-image img {
+    display: none;
+  }
+
+  .inverse {
+    flex-direction: row-reverse;
+  }
+
+  .card-desktop-image1 {
+    background-image: url(./image/Desktop-Images/Snapshoot1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-desktop-image2 {
+    background-image: url(./image/Desktop-Images/Snapshoot2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-desktop-image3 {
+    background-image: url(./image/Desktop-Images/Snapshoot3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-desktop-image4 {
+    background-image: url(./image/Desktop-Images/Snapshoot4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .project-title {
+    font-style: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: 380px;
+  }
+
+  .project-details {
+    font-style: medium;
+    font-weight: 500;
+    font-size: 18px;
+    width: 300px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-top: 32px;
+    width: 490px;
+  }
+
+  .tags {
+    margin-top: 24px;
+  }
+
+  .button-project {
+    font-style: medium;
+    margin-top: 44px;
+  }
 }
