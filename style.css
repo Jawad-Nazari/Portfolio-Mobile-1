@@ -689,4 +689,55 @@ input:focus {
     font-style: medium;
     margin-top: 44px;
   }
+
+  .about-myself {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .about {
+    width: 447px;
+    margin-left: 140px;
+    margin-right: 37px;
+    margin-top: 122px;
+  }
+
+  .about-title {
+    font-style: bold;
+    color: #091e42;
+  }
+
+  .about-text {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 447px;
+  }
+
+  .skills {
+    width: 584px;
+    height: 360px;
+    margin-top: 146px;
+    margin-right: 160px;
+  }
+
+  .language-icons {
+    flex-direction: row;
+    width: 314px;
+    height: 114px;
+    gap: 12px;
+    margin-right: 260px;
+  }
+
+  .language-icon {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact {
+    background-image: url(./image/Desktop-Images/desktopContactbg.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+  }
 }
