@@ -13,6 +13,7 @@
   height: 8vh;
   align-items: center;
   padding: 10px;
+  background-color: #fff;
 }
 
 .mobile-menu {
@@ -146,6 +147,7 @@ a {
 }
 
 .work {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -416,8 +418,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 779px;
-  width: 375px;
+  height: 100%;
+  width: 100%;
   margin-left: 2px;
   border-top-left-radius: 85px;
   background-color: #6070ff;
@@ -425,27 +427,28 @@ ul {
 
 .form-title {
   height: 779px;
-  width: 375px;
+  width: 90%;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-title h1 {
+.form-title h2 {
+  align-items: center;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   margin-top: 103px;
   color: #fff;
-  margin-left: 64px;
-  width: 801px;
+  margin-left: 20px;
   height: 56px;
   margin-bottom: 6px;
 }
 
 .form-title p {
+  align-items: center;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 400px;
@@ -461,6 +464,7 @@ ul {
 }
 
 .form-title input {
+  align-items: center;
   font-family: "Poppins", sans-serif;
   width: 327px;
   height: 48px;
@@ -529,6 +533,7 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
   }
 
   .menu-items {
@@ -558,9 +563,9 @@ input:focus {
     align-items: center;
     margin-top: -46px;
     margin-bottom: 76px;
-    margin-left: 34.6px;
     margin-right: 8px;
     height: 916px;
+    width: 1440px;
   }
 
   .mylogo {
@@ -735,9 +740,37 @@ input:focus {
 
   .contact {
     background-image: url(./image/Desktop-Images/desktopContactbg.svg);
-    width: 100%;
-    height: 100%;
     background-position: center;
     background-size: contain;
+  }
+
+  .form-title {
+    margin-top: 142px;
+  }
+
+  .form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+  }
+
+  .form-title p {
+    width: 569px;
+    margin-bottom: 6px;
+  }
+
+  .form-title input {
+    width: 447px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 2px;
+  }
+
+  .form-title textarea {
+    width: 447px;
+    border-radius: 2px;
   }
 }
