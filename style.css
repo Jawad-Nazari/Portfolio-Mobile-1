@@ -41,6 +41,10 @@ body {
   line-height: 20px;
   margin-left: 24px;
   color: #6070ff;
+  animation: rotation;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-delay: 2s;
 }
 
 a {
@@ -596,6 +600,15 @@ input:focus {
     height: 60vh;
   }
 
+  .card-image {
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+  }
+
   .about-myself {
     flex-direction: row;
     justify-content: center;
@@ -679,4 +692,29 @@ input:focus {
     width: 447px;
     border-radius: 2px;
   }
-}
+
+  @keyframes slidein {
+    from {
+      width: 0%;
+      height: 0%;
+    }
+
+    to {
+      width: 40%;
+      height: 90%;
+    }
+  }
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    25% {
+      transform: rotate(45deg);
+    }
+
+    50% {
+      transform: rotate(90deg);
+    }
+  }
