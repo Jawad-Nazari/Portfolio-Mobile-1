@@ -7,17 +7,18 @@
 }
 
 body {
+  width: 100%;
   background-color: #e5e5e5;
 }
 
 .header-container {
-  top: 0;
   display: flex;
   justify-content: space-between;
   height: 8vh;
   align-items: center;
-  padding: 10px;
+  padding-top: 20px;
   background-color: #fff;
+  width: 100%;
 }
 
 .mobile-menu {
@@ -53,12 +54,12 @@ a {
 .home {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: #fff;
   background-image: url(./image/mobile-background.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: top;
-  background-size: auto;
   border-bottom-left-radius: 85px;
   height: 90vh;
 }
@@ -66,9 +67,6 @@ a {
 .bio {
   display: flex;
   flex-direction: column;
-  height: 50%;
-  margin: 25px 0;
-  padding: 0 15px;
 }
 
 .title {
@@ -76,13 +74,12 @@ a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
+  font-size: 30px;
+  line-height: 40px;
   align-items: center;
   margin-left: 24px;
-  margin-top: 114px;
-  width: 75%;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .text {
@@ -93,8 +90,8 @@ a {
   line-height: 24px;
   color: #344563;
   margin-left: 24px;
-  width: 65vw;
-  padding-top: 15px;
+  width: 100%;
+  padding: 0 40px 10px 0;
 }
 
 .connect {
@@ -143,7 +140,6 @@ a {
   align-items: center;
   padding: 20px;
   gap: 12px;
-  width: 327px;
   height: 90%;
   background: #ffff;
   border: 1px solid #dfe1e6;
@@ -166,7 +162,6 @@ a {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  width: 250px;
 }
 
 .project-details {
@@ -178,7 +173,6 @@ a {
   font-size: 15px;
   line-height: 24px;
   margin: 15px 0;
-  width: 250px;
 }
 
 ul {
@@ -459,19 +453,25 @@ ul {
   font-weight: 400px;
   line-height: 28px;
   color: #ebebff;
-  width: 327px;
   height: 102px;
   margin-left: 24px;
   margin-top: 6px;
   margin-bottom: 87px;
   text-align: center;
   padding-right: 5px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .form-title input {
   align-items: center;
   font-family: "Poppins", sans-serif;
-  width: 327px;
+  width: 90%;
   height: 48px;
   border-radius: 8px;
   margin-top: 9px;
@@ -486,7 +486,7 @@ ul {
 
 .form-title textarea {
   font-family: "Poppins", sans-serif;
-  width: 327px;
+  width: 90%;
   height: 170px;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -538,23 +538,18 @@ input:focus {
     display: none;
   }
 
-  .body-sec {
-    background-color: #e5e5e5;
-  }
-
   .desktop-menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    padding-right: 16px;
   }
 
   .menu-items {
-    margin-top: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin-right: 114px;
+    gap: 16px;
   }
 
   .menu-item a {
@@ -569,152 +564,36 @@ input:focus {
     padding: 10px;
   }
 
-  .header-container {
-    width: 1440px;
-  }
-
   .home {
     background-image: url(./image/Desktop-Images/desktopbg.svg);
-    background-size: contain;
-    background-position: center;
-    align-items: center;
-    margin-top: -46px;
-    margin-bottom: 76px;
-    margin-right: 8px;
-    height: 916px;
-    width: 1440px;
-  }
-
-  .mylogo {
-    margin-left: 145px;
-    margin-top: 25px;
-  }
-
-  .bio {
-    justify-content: center;
+    justify-content: first baseline;
+    background-size: cover;
   }
 
   .title {
     font-style: bold;
     font-size: 48px;
-    line-height: 60px;
-    margin-left: 260px;
-    margin-right: 180px;
-    margin-top: 359px;
-    margin-bottom: 6px;
-    width: 920px;
+    width: 100%;
+    line-height: 80px;
   }
 
   .text {
     font-size: 20px;
     line-height: 28px;
-    margin-left: 260px;
-    margin-top: 6px;
+    margin-top: 16px;
     padding-top: 15px;
   }
 
   .connect {
-    margin-left: 260px;
     margin-top: 12px;
-  }
-
-  .social-icon {
-    margin-left: 270px;
-  }
-
-  .cards {
-    background-color: #e5e5e5;
   }
 
   .card {
     flex-direction: row;
     justify-content: center;
-    width: 1156px;
-    height: 496px;
-    border-radius: 24px;
-    gap: 30px;
-  }
-
-  .work {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 5px;
-  }
-
-  .card-image {
-    width: 544px;
-    height: 448px;
-    display: flex;
-    justify-content: center;
     align-items: center;
-  }
-
-  .card-image img {
-    display: none;
-  }
-
-  .inverse {
-    flex-direction: row-reverse;
-  }
-
-  .card-desktop-image1 {
-    background-image: url(./image/Desktop-Images/Snapshoot1.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .card-desktop-image2 {
-    background-image: url(./image/Desktop-Images/Snapshoot2.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .card-desktop-image3 {
-    background-image: url(./image/Desktop-Images/Snapshoot3.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .card-desktop-image4 {
-    background-image: url(./image/Desktop-Images/Snapshoot4.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .project-title {
-    font-style: bold;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    width: 380px;
-  }
-
-  .project-details {
-    font-style: medium;
-    font-weight: 500;
-    font-size: 18px;
-    width: 300px;
-  }
-
-  .description {
-    font-size: 16px;
-    margin-top: 32px;
-    width: 490px;
-  }
-
-  .tags {
-    margin-top: 24px;
-  }
-
-  .button-project {
-    font-style: medium;
-    margin-top: 44px;
+    margin: 16px 100px;
+    height: 60vh;
   }
 
   .about-myself {
@@ -722,7 +601,7 @@ input:focus {
     justify-content: center;
     border-top-right-radius: 95px;
     height: 916px;
-    width: 1440px;
+    width: 100%;
   }
 
   .about {
@@ -768,7 +647,7 @@ input:focus {
     background-position: center;
     background-size: contain;
     height: 916px;
-    width: 1440px;
+    width: 100%;
   }
 
   .form-title {
