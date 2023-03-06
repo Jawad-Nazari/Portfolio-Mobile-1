@@ -4,10 +4,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
   /* outline: 1px solid red; */
 }
-
-
 
 body {
   /* height: 100vh;
@@ -22,7 +21,6 @@ body {
   align-items: center;
   padding-top: 20px;
   background-color: #fff;
-
 }
 
 .mobile-menu {
@@ -71,7 +69,6 @@ a {
   border-bottom-left-radius: 85px;
   height: 90vh;
   width: 100%;
-
 }
 
 .bio {
@@ -160,7 +157,6 @@ a {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 65px;
-
 }
 
 .work {
@@ -546,11 +542,7 @@ input:focus {
   outline: none;
 }
 
-
-
 @media only screen and (min-width: 768px) {
-
-
   .mobile-menu {
     display: none;
   }
@@ -738,3 +730,4 @@ input:focus {
       transform: rotate(90deg);
     }
   }
+}
