@@ -15,6 +15,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -71,6 +72,16 @@ The aim of this project is to build a simple personal portfolio web page while u
 - **[Key Feature 2]**    Desktop version added
 - **[Key Feature 3 ]**   Used Media Query to make website responsive
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://jawad-nazari.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +142,7 @@ To run and test, open the below HTML file in your browser:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [1] **[Animation and Transition will be used ]**
+- [1] **[Gallery and tutorial sections will be added ]**
 - [2] **[Updated CV will be added to the page ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
