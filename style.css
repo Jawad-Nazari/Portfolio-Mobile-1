@@ -4,10 +4,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 
+
+
 body {
-  width: 100%;
+  /* height: 100vh;
+  width: 100%; */
   background-color: #e5e5e5;
 }
 
@@ -18,7 +22,7 @@ body {
   align-items: center;
   padding-top: 20px;
   background-color: #fff;
-  width: 100%;
+
 }
 
 .mobile-menu {
@@ -62,10 +66,12 @@ a {
   background-color: #fff;
   background-image: url(./image/mobile-background.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top;
   border-bottom-left-radius: 85px;
   height: 90vh;
+  width: 100%;
+
 }
 
 .bio {
@@ -83,7 +89,7 @@ a {
   align-items: center;
   margin-left: 24px;
   margin-top: 20px;
-  width: 100%;
+  width: 70%;
 }
 
 .text {
@@ -94,7 +100,7 @@ a {
   line-height: 24px;
   color: #344563;
   margin-left: 24px;
-  width: 100%;
+  width: 70%;
   padding: 0 40px 10px 0;
 }
 
@@ -107,6 +113,10 @@ a {
   font-size: 16px;
   line-height: 24px;
   margin-left: 24px;
+}
+
+.social {
+  width: 80%;
 }
 
 .social-icon {
@@ -136,6 +146,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #e5e5e5;
+  width: 100%;
 }
 
 .card {
@@ -149,6 +160,7 @@ a {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 65px;
+
 }
 
 .work {
@@ -177,6 +189,7 @@ a {
   font-size: 15px;
   line-height: 24px;
   margin: 15px 0;
+  width: 40%;
 }
 
 ul {
@@ -422,7 +435,7 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 100%;
+  width: 99%;
   margin-left: 2px;
   border-top-left-radius: 85px;
   background-color: #6070ff;
@@ -463,13 +476,13 @@ ul {
   margin-bottom: 87px;
   text-align: center;
   padding-right: 5px;
-  width: 100%;
+  width: 90%;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
 }
 
 .form-title input {
@@ -533,11 +546,11 @@ input:focus {
   outline: none;
 }
 
-.body-sec {
-  background-color: #fff;
-}
 
-@media screen and (min-width: 768px) {
+
+@media only screen and (min-width: 768px) {
+
+
   .mobile-menu {
     display: none;
   }
@@ -571,13 +584,15 @@ input:focus {
   .home {
     background-image: url(./image/Desktop-Images/desktopbg.svg);
     justify-content: first baseline;
-    background-size: cover;
+    background-size: contain;
+    background-position: top;
+    width: 100%;
   }
 
   .title {
     font-style: bold;
     font-size: 48px;
-    width: 100%;
+    width: 90%;
     line-height: 80px;
   }
 
@@ -586,6 +601,7 @@ input:focus {
     line-height: 28px;
     margin-top: 16px;
     padding-top: 15px;
+    width: 90%;
   }
 
   .connect {
@@ -618,7 +634,7 @@ input:focus {
   }
 
   .about {
-    width: 447px;
+    width: 100%;
     margin-left: 140px;
     margin-right: 37px;
     margin-top: 122px;
@@ -636,7 +652,7 @@ input:focus {
   }
 
   .skills {
-    width: 584px;
+    width: 60%;
     height: 360px;
     margin-top: 146px;
     margin-right: 160px;
@@ -644,7 +660,7 @@ input:focus {
 
   .language-icons {
     flex-direction: row;
-    width: 314px;
+    width: 50%;
     height: 114px;
     gap: 12px;
     margin-right: 260px;
@@ -655,11 +671,15 @@ input:focus {
     align-items: flex-start;
   }
 
+  .body-sec {
+    width: 99.5%;
+  }
+
   .contact {
     background-image: url(./image/Desktop-Images/desktopContactbg.svg);
     background-position: center;
     background-size: contain;
-    height: 916px;
+    min-height: 100vh;
     width: 100%;
   }
 
