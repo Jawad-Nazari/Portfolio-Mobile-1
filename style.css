@@ -6,21 +6,29 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
 .header-container {
-  top: 0;
   display: flex;
   justify-content: space-between;
   height: 8vh;
   align-items: center;
-  padding: 10px;
+  padding-top: 20px;
+  background-color: #fff;
+  width: 100%;
 }
 
-.menu img {
+.mobile-menu {
+  width: 18px;
+  height: 12px;
   margin-right: 36px;
   cursor: pointer;
 }
 
-.menu:hover {
+.mobile-menu:hover {
   transform: scale(1.2);
   transition: all 0.6s;
 }
@@ -39,24 +47,26 @@ a {
   text-decoration: none;
 }
 
+.desktop-menu {
+  display: none;
+}
+
 .home {
   display: flex;
   flex-direction: column;
-  background-color: #ffff;
+  justify-content: center;
+  background-color: #fff;
   background-image: url(./image/mobile-background.svg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
+  background-position: top;
   border-bottom-left-radius: 85px;
-  margin-top: 70px;
-  height: 82vh;
+  height: 90vh;
 }
 
 .bio {
   display: flex;
   flex-direction: column;
-  height: 50%;
-  margin: 25px 0;
-  padding: 0 15px;
 }
 
 .title {
@@ -64,12 +74,12 @@ a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
+  font-size: 30px;
+  line-height: 40px;
   align-items: center;
   margin-left: 24px;
-  width: 75%;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .text {
@@ -80,8 +90,8 @@ a {
   line-height: 24px;
   color: #344563;
   margin-left: 24px;
-  width: 65vw;
-  padding-top: 15px;
+  width: 100%;
+  padding: 0 40px 10px 0;
 }
 
 .connect {
@@ -121,6 +131,7 @@ a {
   display: grid;
   align-items: center;
   justify-content: center;
+  background-color: #e5e5e5;
 }
 
 .card {
@@ -129,7 +140,6 @@ a {
   align-items: center;
   padding: 20px;
   gap: 12px;
-  width: 327px;
   height: 90%;
   background: #ffff;
   border: 1px solid #dfe1e6;
@@ -138,6 +148,7 @@ a {
 }
 
 .work {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -151,7 +162,6 @@ a {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  width: 250px;
 }
 
 .project-details {
@@ -163,7 +173,6 @@ a {
   font-size: 15px;
   line-height: 24px;
   margin: 15px 0;
-  width: 250px;
 }
 
 ul {
@@ -252,7 +261,7 @@ ul {
   padding: 114px 24px;
   margin-top: 100px;
   background-color: #ffff;
-  border-top-right-radius: 115px;
+  border-top-right-radius: 95px;
 }
 
 .about {
@@ -408,8 +417,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 779px;
-  width: 375px;
+  height: 100%;
+  width: 100%;
   margin-left: 2px;
   border-top-left-radius: 85px;
   background-color: #6070ff;
@@ -417,44 +426,52 @@ ul {
 
 .form-title {
   height: 779px;
-  width: 375px;
+  width: 90%;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-title h1 {
+.form-title h2 {
+  align-items: center;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   margin-top: 103px;
   color: #fff;
-  margin-left: 64px;
-  width: 801px;
+  margin-left: 20px;
   height: 56px;
   margin-bottom: 6px;
 }
 
 .form-title p {
+  align-items: center;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 400px;
   line-height: 28px;
   color: #ebebff;
-  width: 327px;
   height: 102px;
   margin-left: 24px;
   margin-top: 6px;
   margin-bottom: 87px;
   text-align: center;
   padding-right: 5px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .form-title input {
+  align-items: center;
   font-family: "Poppins", sans-serif;
-  width: 327px;
+  width: 90%;
   height: 48px;
   border-radius: 8px;
   margin-top: 9px;
@@ -469,7 +486,7 @@ ul {
 
 .form-title textarea {
   font-family: "Poppins", sans-serif;
-  width: 327px;
+  width: 90%;
   height: 170px;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -510,4 +527,156 @@ button:active {
 textarea:focus,
 input:focus {
   outline: none;
+}
+
+.body-sec {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+  }
+
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .menu-item a {
+    font-family: "Poppins", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-right: 16px;
+    margin-left: 16px;
+    padding: 10px;
+  }
+
+  .home {
+    background-image: url(./image/Desktop-Images/desktopbg.svg);
+    justify-content: first baseline;
+    background-size: cover;
+  }
+
+  .title {
+    font-style: bold;
+    font-size: 48px;
+    width: 100%;
+    line-height: 80px;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 16px;
+    padding-top: 15px;
+  }
+
+  .connect {
+    margin-top: 12px;
+  }
+
+  .card {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 100px;
+    height: 60vh;
+  }
+
+  .about-myself {
+    flex-direction: row;
+    justify-content: center;
+    border-top-right-radius: 95px;
+    height: 916px;
+    width: 100%;
+  }
+
+  .about {
+    width: 447px;
+    margin-left: 140px;
+    margin-right: 37px;
+    margin-top: 122px;
+  }
+
+  .about-title {
+    font-style: bold;
+    color: #091e42;
+  }
+
+  .about-text {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 447px;
+  }
+
+  .skills {
+    width: 584px;
+    height: 360px;
+    margin-top: 146px;
+    margin-right: 160px;
+  }
+
+  .language-icons {
+    flex-direction: row;
+    width: 314px;
+    height: 114px;
+    gap: 12px;
+    margin-right: 260px;
+  }
+
+  .language-icon {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact {
+    background-image: url(./image/Desktop-Images/desktopContactbg.svg);
+    background-position: center;
+    background-size: contain;
+    height: 916px;
+    width: 100%;
+  }
+
+  .form-title {
+    margin-top: 142px;
+  }
+
+  .form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+  }
+
+  .form-title p {
+    width: 569px;
+    margin-bottom: 6px;
+  }
+
+  .form-title input {
+    width: 447px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 2px;
+  }
+
+  .form-title textarea {
+    width: 447px;
+    border-radius: 2px;
+  }
 }

@@ -10,20 +10,25 @@
 </head>
 
 <body>
-  <!-- Coding the toolbar section of the page-->
   <header class="header-container">
     <a class="mylogo" href="#">My Logo</a>
-    <nav class="menu">
-      <img src="icons/menu.png" alt="Menu Icon">
+    <img class="mobile-menu" src="icons/menu.png" alt="Menu Icon">
+    <nav class="desktop-menu">
+      <ul class="menu-items">
+        <li class="menu-item"> <a href="#portfolio">Portfolio</a></li>
+        <li class="menu-item"> <a href="#about">About</a></li>
+        <li class="menu-item"> <a href="#contact">Contact</a></li>
+
+      </ul>
     </nav>
   </header>
   <section class="home">
-    <section class="bio">
-      <h1 class="title">I’m Jawad
+    <div class="bio">
+      <h1 class="title">I'm Jawad <br>
         Glad to see you!</h1>
       <p class="text">
-        I’m a software developer! I can help you build a product , feature or website Look through some of my work and
-        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+        I'm a software developer! I can help you build a product , feature or website Look through some of my work and
+        experience! If you like what you see and have a project you need coded, don't hestiate to contact me.
       </p>
       <div class="social">
         <h3 class="connect">LET'S CONNECT</h3>
@@ -50,11 +55,11 @@
           </li>
         </ul>
       </div>
-    </section>
+    </div>
   </section>
-  <Section class="cards">
-    <div class="card">
-      <div class="card-image">
+  <section class="cards">
+    <div class="card" id="portfolio">
+      <div class="card-image card-desktop-image1">
         <img src="./image/card1.svg" alt="Snapshot Portfolio">
       </div>
       <div class="work">
@@ -78,25 +83,26 @@
         <button class="button-project">See Project</button>
       </div>
     </div>
-    <div class="card">
-      <div class="card-image">
+    <div class="card inverse">
+      <div class="card-image card-desktop-image2">
         <img src="./image/card2.svg" alt="Project">
       </div>
       <div class="work">
         <h1 class="project-title">Multi-Post Stories</h1>
         <ul class="project-details">
-          <li class="client">CANOPY</li>
+          <li class="client">FACEBOOK</li>
           <li><img src="./image/Counter.svg" alt="dot"></li>
-          <li class="role">Back End Dev</li>
+          <li class="role">Full Stack Dev</li>
           <li><img src="./image/Counter.svg" alt="dot"></li>
           <li class="year">2015</li>
         </ul>
         <div class="description">
-          <p>A daily selection of privately personalized reads; no accounts or
-            sign-ups required.</p>
+          <p>Experimental content creation feature that allows users to add to an existing story over the course of a
+            day without spamming their friends.</p>
         </div>
         <ul class="tags">
           <li class="tag">HTML</li>
+          <li class="tag">Ruby on rails</li>
           <li class="tag">CSS</li>
           <li class="tag">Javascript</li>
         </ul>
@@ -104,24 +110,25 @@
       </div>
     </div>
     <div class="card">
-      <div class="card-image">
+      <div class="card-image card-desktop-image3">
         <img src="./image/card3.svg" alt="Snapshot Portfolio">
       </div>
       <div class="work">
-        <h1 class="project-title">Tonic</h1>
+        <h1 class="project-title">Facebook 360</h1>
         <ul class="project-details">
-          <li class="client">CANOPY</li>
+          <li class="client">FACEBOOK</li>
           <li><img src="./image/Counter.svg" alt="dot"></li>
-          <li class="role">Back End Dev</li>
+          <li class="role">Full Stack Dev</li>
           <li><img src="./image/Counter.svg" alt="dot"></li>
           <li class="year">2015</li>
         </ul>
         <div class="description">
-          <p>A daily selection of privately personalized reads; no accounts or
-            sign-ups required.</p>
+          <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360
+            photos and videos on Gear VR.</p>
         </div>
         <ul class="tags">
           <li class="tag">HTML</li>
+          <li class="tag">Ruby on rails</li>
           <li class="tag">CSS</li>
           <li class="tag">Javascript</li>
         </ul>
@@ -129,24 +136,25 @@
       </div>
     </div>
     <div class="card">
-      <div class="card-image">
+      <div class="card-image card-desktop-image4">
         <img src="./image/card4.svg" alt="Snapshot Portfolio">
       </div>
       <div class="work">
-        <h1 class="project-title">Multi-Post Stoires</h1>
+        <h1 class="project-title">Uber Navigation</h1>
         <ul class="project-details">
-          <li class="client">CANOPY</li>
+          <li class="client">Uber</li>
           <li><img src="./image/Counter.svg" alt="dot"></li>
-          <li class="role">Back End Dev</li>
+          <li class="role">Lead Developer</li>
           <li><img src="./image/Counter.svg" alt="dot"></li>
-          <li class="year">2015</li>
+          <li class="year">2018</li>
         </ul>
         <div class="description">
-          <p>A daily selection of privately personalized reads; no accounts or
-            sign-ups required.</p>
+          <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer:
+            your car.</p>
         </div>
         <ul class="tags">
           <li class="tag">HTML</li>
+          <li class="tag">Ruby on rails</li>
           <li class="tag">CSS</li>
           <li class="tag">Javascript</li>
         </ul>
@@ -154,17 +162,17 @@
       </div>
     </div>
   </section>
-  <section class="about-myself">
+  <section class="about-myself" id="about">
     <div class="about">
       <div class="about-title">About <br>
         Myself</div>
       <div class="about-text">
-        Hello I’m a software developer! I can help you build a product , feature or website Look through some of
-        my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+        Hello I'm a software developer! I can help you build a product , feature or website Look through some of
+        my work and experience! If you like what you see and have a project you need coded, don't hestiate to
         contact me.
       </div>
       <div class="about-social">
-        <h4 class="social-links">LET’S CONNECT</h4>
+        <h4 class="social-links">LET'S CONNECT</h4>
         <ul class="social-icons">
           <li><img src="./icons/github.svg" alt="github"></li>
           <li><img src="./icons/Linkedin icon.svg" alt="linkedin"></li>
@@ -178,7 +186,6 @@
     <div class="skills">
       <ul class="skill-list">
         <li class="languages">
-        <li class="languages border">
           <span class="Language-title">Languages</span>
           <img src="./icons/down-arrow.png" alt="">
         </li>
@@ -208,17 +215,19 @@
       </ul>
     </div>
   </section>
-  <section class="contact">
-    <div class="form-title">
-      <h1>Contact me</h1>
-      <p>If you have an application you are interested in developing, a feature that you need built or a project that
-        needs coding. I’d love to help with it </p>
-      <form class="form" action="https://formspree.io/f/meqwkove" method="post">
-        <input type="text" name="first_name" maxlength="30" required placeholder="  Your Name">
-        <input type="email" name="email" id="email" required placeholder="  Your Email Address">
-        <textarea name="message" id="text" maxlength="500" required placeholder="Write your message here"></textarea>
-        <button type="submit">Get in touch</button>
-      </form>
+  <section class="body-sec">
+    <div class="contact" id="contact">
+      <div class="form-title">
+        <h2>Contact me</h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that
+          needs coding. I'd love to help with it </p>
+        <form class="form" action="https://formspree.io/f/meqwkove" method="post">
+          <input type="text" name="first_name" maxlength="30" required placeholder="  Your Name">
+          <input type="email" name="email" id="email" required placeholder="  Your Email Address">
+          <textarea name="message" id="text" maxlength="500" required placeholder="Write your message here"></textarea>
+          <button type="submit">Get in touch</button>
+        </form>
+      </div>
     </div>
   </section>
 </body>
