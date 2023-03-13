@@ -4,13 +4,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
-  /* outline: 1px solid red; */
 }
 
 body {
-  /* height: 100vh;
-  width: 100%; */
   background-color: #e5e5e5;
 }
 
@@ -20,14 +16,62 @@ body {
   height: 8vh;
   align-items: center;
   padding-top: 20px;
-  background-color: #fff;
+  background-color: white;
+  width: 100%;
 }
 
-.mobile-menu {
-  width: 18px;
-  height: 12px;
-  margin-right: 36px;
+.hamburger {
+  height: 45px;
+  transition: all 31s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   cursor: pointer;
+  align-items: center;
+}
+
+.bars {
+  width: 25px;
+  height: 3px;
+  position: relative;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+  margin-right: 24px;
+}
+
+.bars::before,
+.bars::after {
+  width: 25px;
+  height: 3px;
+  position: absolute;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+  content: '';
+}
+
+.hamburger.open .bars {
+  transform: translateX(-45px);
+  background-color: transparent;
+}
+
+.bars::after {
+  transform: translateY(10px);
+}
+
+.bars::before {
+  transform: translateY(-10px);
+}
+
+.hamburger.open .bars::before {
+  transform: rotate(45deg) translate(35px, -35px);
+  background-color: azure;
+}
+
+.hamburger.open .bars::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+  background-color: azure;
 }
 
 .mobile-menu:hover {
@@ -51,10 +95,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.desktop-menu {
-  display: none;
 }
 
 .home {
@@ -185,7 +225,7 @@ a {
   font-size: 15px;
   line-height: 24px;
   margin: 15px 0;
-  width: 40%;
+  width: 80%;
 }
 
 ul {
@@ -193,6 +233,30 @@ ul {
   justify-content: center;
   align-items: center;
   list-style-type: none;
+}
+
+.menu-items {
+  display: block;
+}
+
+.menu-items li a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: semibold;
+  font-size: 32px;
+}
+
+.menu-items.open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #6070ff;
+  opacity: 95%;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0 0 40px;
+  transition: all 0.5s ease;
 }
 
 .client {
@@ -729,5 +793,16 @@ input:focus {
     50% {
       transform: rotate(90deg);
     }
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu-items li a {
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: semibold;
+    font-size: 15px;
   }
 }
