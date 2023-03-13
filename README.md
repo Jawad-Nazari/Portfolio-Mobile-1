@@ -79,6 +79,7 @@ The aim of this project is to build a simple personal portfolio web page while u
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://jawad-nazari.github.io/)
+- [Loom Video Link](https://www.loom.com/share/caf2e978fdc04b2489426eee6d85061d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
