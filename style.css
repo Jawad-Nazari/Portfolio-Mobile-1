@@ -237,6 +237,7 @@ ul {
 
 .menu-items {
   display: block;
+  height: 100%;
 }
 
 .menu-items li a {
@@ -244,6 +245,7 @@ ul {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 32px;
+  line-height: 2.5;
 }
 
 .menu-items.open {
@@ -578,8 +580,7 @@ ul {
   font-family: "Poppins", sans-serif;
   height: 48px;
   width: 142px;
-
-  /* padding: 6px, 8px, 6px, 8px; */
+  padding: 6px, 8px, 6px, 8px;
   border-radius: 8px;
   margin-left: 24px;
   background-color: #fff;
