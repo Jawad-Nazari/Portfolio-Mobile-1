@@ -9,18 +9,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="stop-scrolling">
+
   <header class="header-container">
     <a class="mylogo" href="#">My Logo</a>
-    <img class="mobile-menu" src="icons/menu.png" alt="Menu Icon">
-    <nav class="desktop-menu">
+    <nav id="mobile-item" class="desktop-menu">
       <ul class="menu-items">
         <li class="menu-item"> <a href="#portfolio">Portfolio</a></li>
         <li class="menu-item"> <a href="#about">About</a></li>
         <li class="menu-item"> <a href="#contact">Contact</a></li>
-
       </ul>
     </nav>
+    <div class="hamburger">
+      <div class="bars"></div>
+    </div>
   </header>
   <section class="home">
     <div class="bio">
@@ -80,7 +82,7 @@
           <li class="tag">CSS</li>
           <li class="tag">Javascript</li>
         </ul>
-        <button class="button-project">See Project</button>
+        <button type="button" class="button-project">See Project</button>
       </div>
     </div>
     <div class="card inverse">
@@ -106,7 +108,7 @@
           <li class="tag">CSS</li>
           <li class="tag">Javascript</li>
         </ul>
-        <button class="button-project">See Project</button>
+        <button type="button" class="button-project">See Project</button>
       </div>
     </div>
     <div class="card">
@@ -132,7 +134,7 @@
           <li class="tag">CSS</li>
           <li class="tag">Javascript</li>
         </ul>
-        <button class="button-project">See Project</button>
+        <button type="button" class="button-project">See Project</button>
       </div>
     </div>
     <div class="card">
@@ -158,7 +160,7 @@
           <li class="tag">CSS</li>
           <li class="tag">Javascript</li>
         </ul>
-        <button class="button-project">See Project</button>
+        <button type="button" class="button-project">See Project</button>
       </div>
     </div>
   </section>
@@ -181,7 +183,7 @@
           <li><img src="./icons/M.png" alt="M Icon"></li>
         </ul>
       </div>
-      <button class="button-resume">Get my resume</button>
+      <button type="button" class="button-resume">Get my resume</button>
     </div>
     <div class="skills">
       <ul class="skill-list">
@@ -230,6 +232,7 @@
       </div>
     </div>
   </section>
+  <script src="./index.js"></script>
 </body>
 
 </html>

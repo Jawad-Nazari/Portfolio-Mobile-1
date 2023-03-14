@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio Desktop Version README</b></h3>
+  <h3><b>Portfolio Mobile Menu Pop up window</b></h3>
 
 </div>
 
@@ -20,7 +20,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -79,9 +78,8 @@ The aim of this project is to build a simple personal portfolio web page while u
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://jawad-nazari.github.io/)
+- [Loom Video Link](https://www.loom.com/share/caf2e978fdc04b2489426eee6d85061d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,12 +116,6 @@ Clone this repository to your desired folder:
 
 This project will be used to display my portfolios:
 
-
-### Run tests
-
-To run and test, open the below HTML file in your browser:
-
-- index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
