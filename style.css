@@ -1054,7 +1054,7 @@ label {
 .projectImage {
   display: flex;
   justify-content: center;
-  height: 50px;
+  height: 45px;
   object-fit: cover;
 
 }
