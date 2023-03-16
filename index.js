@@ -93,7 +93,7 @@ document.querySelectorAll('.btn').forEach((occurence) => {
               <hr>
               <div class="actionBtnPopup">
                <a class="btn btnPopup" href=${data[id].seeLive} target='blank'>
-               See Live <img class="seeAll" src='./Icons/Icon.svg' alt="seeLive"></a>
+               See Live <img class="seeAll" src='./icons/icon.svg' alt="seeLive"></a>
               <a class="btn btnPopup" href=${data[id].sourceCode} target='blank'>
               See Source <img class="seeAll" src='./icons/github.svg' alt="githubCode"></a>
               </div>
