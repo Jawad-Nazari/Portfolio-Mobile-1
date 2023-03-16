@@ -117,12 +117,6 @@ document.querySelectorAll('.btn').forEach((occurence) => {
   });
 });
 //Form Validation Code
-const form = document.querySelector('form');
-const errormessage = document.getElementById('errorMsg');
-const email = document.getElementById('email');
-form.addEventListener('submit', (e) => {
-  if (email.value !== email.value.toLowerCase()) {
-    e.preventDefault();
-    errormessage.style.opacity = '1';
-  }
-});
+const formContainer = document.querySelector('.con-form');
+const mailInput = document.getElementById('mail');
+const messageError = document.querySelector('.error-message');
