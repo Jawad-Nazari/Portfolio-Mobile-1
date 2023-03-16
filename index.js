@@ -117,9 +117,9 @@ document.querySelectorAll('.btn').forEach((occurence) => {
   });
 });
 //Form Validation Code
-const formContainer = document.querySelector('.con-form');
+const formContainer = document.querySelector('.mainForm');
 const mailInput = document.getElementById('mail');
-const messageError = document.querySelector('.error-message');
+const messageError = document.querySelector('.errorMessage');
 
 formContainer.addEventListener('submit', (e) => {
   if (mailInput.value === mailInput.value.toLowerCase()) {
