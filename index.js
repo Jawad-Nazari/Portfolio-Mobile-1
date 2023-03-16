@@ -25,7 +25,7 @@ for (let i = 0; i < menuItem.length; i += 1) {
 const data = [
   {
     projectTitle: 'Tonic',
-    imageURL: './image/card2.svg',
+    imageURL: './image/cards.jpg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
     seeLive: 'https://jawad-nazari.github.io/',
@@ -33,7 +33,7 @@ const data = [
   },
   {
     projectTitle: 'Multi-Post Stories',
-    imageURL: './image/card2.svg',
+    imageURL: './image/cards.jpg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
     seeLive: 'https://jawad-nazari.github.io/',
@@ -41,7 +41,7 @@ const data = [
   },
   {
     projectTitle: 'Facebook 360',
-    imageURL: './image/card3.svg',
+    imageURL: './image/cards.jpg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
     seeLive: 'https://jawad-nazari.github.io/',
@@ -49,7 +49,7 @@ const data = [
   },
   {
     projectTitle: 'Uber Navigation',
-    imageURL: './image/card4.svg',
+    imageURL: './image/cards.jpg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
     seeLive: 'https://jawad-nazari.github.io/',
