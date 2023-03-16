@@ -244,13 +244,15 @@
         </div>
         <form action="https://formspree.io/f/meqwkove" method="POST" class="mainForm" id="signup">
           <label for="name">Name</label>
-          <input class="input" type="text" maxlength="30" id="name" required placeholder="  Your Name ">
+          <input class="input" type="text" name="first_name" maxlength="30" id="name" required
+            placeholder="  Your Name ">
           <label for="email">Email</label>
-          <input class="input" type="email" id="email" required placeholder="  Your Email Address">
-          <p id="errorMsg"></p>
+          <input class="input" type="email" name="email" id="email" required placeholder="  Your Email Address">
+
           <textarea id="msg" name="user-msg" maxlength="500" required
             placeholder="  Write your message here..."></textarea>
-          <button class="form-btn" type="submit">Get in touch</button>
+          <button class="form-btn" id="submit" type="submit">Get in touch</button>
+          <p class="errorMessage" id="errorMsg">Please, Write your Email in lower case</p>
         </form>
       </div>
     </div>
