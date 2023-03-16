@@ -565,20 +565,12 @@ label {
 }
 
 @media only screen and (min-width: 768px) {
-
   .deskNav {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 16px;
     width: 40%;
-  }
-
-  .deskNav-menu-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
   }
 
   .deskNav-menu-items a {
