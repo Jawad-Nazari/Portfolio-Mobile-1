@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio Mobile Menu Pop up window</b></h3>
+  <h3><b>Portfolio Poject Details Pop up Window</b></h3>
 
 </div>
 
@@ -67,9 +67,9 @@ The aim of this project is to build a simple personal portfolio web page while u
 
 ### Key Features <a name="key-features"></a>
 
-- **[Key Feature 1]**    Error correction by Microverse Linter configuration
-- **[Key Feature 2]**    Desktop version added
-- **[Key Feature 3 ]**   Used Media Query to make website responsive
+- **[Key Feature 1]**    Popup window for Mobile Menu
+- **[Key Feature 2]**    Poup Window to have look on project details
+- **[Key Feature 3 ]**   Used DOM and Javascript to make the webpage daynamic
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
