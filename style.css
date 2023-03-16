@@ -205,8 +205,8 @@ ul li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-
-  /* font-size: 32px; */
+  margin-top: 50px;
+  font-size: 32px;
   line-height: 30px;
   color: #172b4d;
 }
@@ -1054,11 +1054,14 @@ label {
 .projectImage {
   display: flex;
   justify-content: center;
+  height: 50px;
+  object-fit: cover;
+
 }
 
 .popupClose {
   width: 30px;
-  height: 30px;
+  height: 52px;
   cursor: pointer;
 }
 
