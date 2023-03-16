@@ -32,7 +32,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-
+  overflow-y: scroll;
 }
 
 .titlePopup {
