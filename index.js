@@ -120,3 +120,12 @@ document.querySelectorAll('.btn').forEach((occurence) => {
 const formContainer = document.querySelector('.con-form');
 const mailInput = document.getElementById('mail');
 const messageError = document.querySelector('.error-message');
+
+formContainer.addEventListener('submit', (e) => {
+  if (mailInput.value === mailInput.value.toLowerCase()) {
+    messageError.textContent = '';
+  } else {
+    e.preventDefault();
+    messageError.innerHTML = '*email must be in lower case <br> * form not sent';
+  }
+});
