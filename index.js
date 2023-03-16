@@ -1,4 +1,3 @@
-
 const hamgurger = document.querySelector('.hamburger-icon');
 const menuItems = document.querySelector('.menu-items');
 const btnClose = document.querySelector('.close');
