@@ -72,7 +72,6 @@ const details = [
     category: 'project4',
   },
 ];
-// eslint-disable-next-line no-plusplus
 
 // ==========================================================================
 const burger = document.querySelector(
@@ -80,8 +79,7 @@ const burger = document.querySelector(
 );
 const iwq = document.querySelector('.iwq');
 const parpopup = document.querySelector('.parpopup');
-// eslint-disable-next-line camelcase
-const parpopup__popup = document.querySelector('.parpopup__popup');
+const parpopuPopup = document.querySelector('.parpopup__popup');
 const navLinks = document.querySelectorAll('.mobile-nav-links');
 const email = document.querySelector('.form__control > input#email');
 const form = document.querySelector('form');
@@ -101,11 +99,11 @@ burger.addEventListener('click', () => {
   }
 });
 // ============================================================================
-// eslint-disable-next-line no-unused-vars
-function detail(c) {
+
+export function detail(c) {
   parpopup.style.display = 'flex';
   const update = details.filter((item) => item.category === c);
-  parpopup__popup.innerHTML = `
+  parpopuPopup.innerHTML = `
   <div class="head">
   <span class="name">${update[0].title}</span>
   <span id="close" onclick="closes()">&times;</span>
@@ -139,26 +137,26 @@ function detail(c) {
   
   `;
 }
-// ========================================================================
-// eslint-disable-next-line no-unused-vars
-function closes() {
+
+export function closes() {
   parpopup.style.display = 'none';
 }
-// ========================================================================
+
 navLinks.forEach((item) => {
   item.addEventListener('click', () => {
     iwq.classList.remove('show');
     burger.classList.remove('change');
   });
 });
-// ========================================================================
-// eslint-disable-next-line func-names
-window.onclick = function (event) {
+
+window.onclick = function closePopup(event) {
   if (event.target === parpopup) {
     parpopup.style.display = 'none';
   }
 };
-// ========================================================================
+
+// Form Validation 
+
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
