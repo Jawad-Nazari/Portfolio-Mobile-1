@@ -292,7 +292,7 @@ function closeSideBar() {
 }
 
 window.onload = showWorks();
-
+// Form Validation Section
 const formContainer = document.querySelector('.con-form');
 const mailInput = document.getElementById('mail');
 const messageError = document.querySelector('.error-message');
