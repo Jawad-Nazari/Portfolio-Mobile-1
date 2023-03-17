@@ -84,6 +84,7 @@ const navLinks = document.querySelectorAll('.mobile-nav-links');
 const email = document.querySelector('.form__control > input#email');
 const form = document.querySelector('form');
 const emailerror = document.querySelector('#emailerror');
+const pardetail = document.querySelector('.pardetail');
 // ===========================================================================
 burger.addEventListener('click', () => {
   if (burger.classList.contains('change')) {
@@ -100,7 +101,7 @@ burger.addEventListener('click', () => {
 });
 // ============================================================================
 
-export function detail(c) {
+function detail(c) {
   parpopup.style.display = 'flex';
   const update = details.filter((item) => item.category === c);
   parpopuPopup.innerHTML = `
@@ -138,7 +139,7 @@ export function detail(c) {
   `;
 }
 
-export function closes() {
+function closes() {
   parpopup.style.display = 'none';
 }
 
@@ -162,4 +163,9 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     emailerror.style.opacity = '1';
   }
+});
+
+pardetail.addEventListener('click', () => {
+  detail();
+  closes();
 });
