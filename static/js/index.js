@@ -155,7 +155,7 @@ window.onclick = function closePopup(event) {
   }
 };
 
-// Form Validation 
+// Form Validation
 
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
