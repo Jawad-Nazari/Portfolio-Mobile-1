@@ -90,6 +90,8 @@ body.noscroll {
   left: 0;
   right: 0;
   visibility: hidden;
+
+  overflow: auto;
 }
 
 .show-modal {

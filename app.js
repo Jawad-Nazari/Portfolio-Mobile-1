@@ -45,7 +45,7 @@ const cards = [
     featuredImage: './images/photo3dt.png',
     desktopImage: './images/photo3dt.png',
     technologies: ['html', 'css', 'javascript', 'ruby'],
-    linktoliveversion: 'https://jawad-nazari.github.io/',
+    linktoliveversion: 'https://jawad-nazari.github.io',
     linktosource: 'https://github.com/Jawad-Nazari/Portfolio-Mobile-1',
   },
   {
