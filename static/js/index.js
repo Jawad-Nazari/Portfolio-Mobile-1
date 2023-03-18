@@ -159,10 +159,9 @@ window.onclick = function closePopup(event) {
 // Form Validation
 
 form.addEventListener('submit', (e) => {
-  debugger
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
-    emailerrors.style.opacity = '1';
+    emailerror.style.opacity = '1';
   }
 });
 
